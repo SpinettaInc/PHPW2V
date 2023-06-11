@@ -11,11 +11,11 @@
 		}
 	],    
     "require": {
-		"php": ">=7.4",
-		"phpunit/phpunit": "^9.1",
+		"php": ">=8.1",
+		"phpunit/phpunit": "^10.2",
 		"rubix/tensor": "^2.0.4",
-		"phpstan/phpstan": "^0.12.33",
-		"friendsofphp/php-cs-fixer": "^2.16"
+		"phpstan/phpstan": "^1.10",
+		"friendsofphp/php-cs-fixer": "^3.17"
 	},
     "autoload": {
         "psr-4": {
