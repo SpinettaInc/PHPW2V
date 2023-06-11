@@ -1,35 +1,35 @@
 {
-	"name": "rich-davis1/phpw2v",
+	"name": "spinettainc/phpw2v",
 	"type": "library",
-	"description": "A PHP implementation of Word2Vec, a popular word embedding algorithm created by Tomas Mikolov and popularized by Radim Řehůřek & Peter Sojka with the Gensim Python library.",
+	"description": "A forked version of the 'PHP implementation of Word2Vec, a popular word embedding algorithm created by Tomas Mikolov and popularized by Radim Řehůřek & Peter Sojka with the Gensim Python library'.",
 	"license": "MIT",
-	"authors":[
+	"authors": [
 		{
 			"name": "Rich Davis",
 			"email": "rdavis2031@gmail.com",
 			"role": "Lead Engineer"
 		}
-	],    
-    "require": {
+	],
+	"require": {
 		"php": ">=8.1",
 		"phpunit/phpunit": "^10.2",
 		"rubix/tensor": "^2.0.4",
 		"phpstan/phpstan": "^1.10",
 		"friendsofphp/php-cs-fixer": "^3.17"
 	},
-    "autoload": {
-        "psr-4": {
-            "PHPW2V\\": "src/"
-        }
+	"autoload": {
+		"psr-4": {
+			"PHPW2V\\": "src/"
+		}
 	},
-    "autoload-dev": {
-        "psr-4": {
+	"autoload-dev": {
+		"psr-4": {
 			"PHPW2V\\": "tests/"
 		}
-	},	
-    "scripts": {
-        "analyze": "phpstan analyse -c phpstan.neon",
-        "test": "phpunit",
-        "fix": "php-cs-fixer fix --config=.php_cs.dist"
-    }           
+	},
+	"scripts": {
+		"analyze": "phpstan analyse -c phpstan.neon",
+		"test": "phpunit",
+		"fix": "php-cs-fixer fix --config=.php_cs.dist"
+	}
 }
