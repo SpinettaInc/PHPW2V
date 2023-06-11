@@ -15,7 +15,7 @@
 		"phpunit/phpunit": "^10.2",
 		"rubix/tensor": "^2.0.4",
 		"phpstan/phpstan": "^1.10",
-		"friendsofphp/php-cs-fixer": "^3.17"
+		"friendsofphp/php-cs-fixer": "^3.13"
 	},
 	"autoload": {
 		"psr-4": {
