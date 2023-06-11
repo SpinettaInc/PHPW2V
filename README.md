@@ -1,10 +1,10 @@
 # PHPW2V
-A PHP implementation of Word2Vec, a popular word embedding algorithm created by Tomas Mikolov and popularized by Radim Řehůřek &amp; Peter Sojka with the Gensim Python library
+A forked version of the "PHP implementation of Word2Vec, a popular word embedding algorithm created by Tomas Mikolov and popularized by Radim Řehůřek &amp; Peter Sojka with the Gensim Python library".
 
 ## Installation
 Install PHPW2V into your project using [Composer](https://getcomposer.org/):
 ```sh
-$ composer require rich-davis1/phpw2v
+$ composer require SpinettaInc/phpw2v
 ```
 
 ### Requirements
