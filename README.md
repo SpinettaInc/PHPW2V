@@ -4,7 +4,7 @@ A forked version of the "PHP implementation of Word2Vec, a popular word embeddin
 ## Installation
 Install PHPW2V into your project using [Composer](https://getcomposer.org/):
 ```sh
-$ composer require SpinettaInc/phpw2v
+$ composer require spinettainc/phpw2v
 ```
 
 ### Requirements
